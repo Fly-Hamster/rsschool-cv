@@ -1,14 +1,16 @@
+
+<img src='photo_for_cv.jpg' width = 40%>
+
 # Sveatlana Malich
 ---
 Location: Brest, Belarus
 ---
 
 ## Contacts
-* Email - malich.s.g@gmail.com
+* Email - Malich.S.G@gmail.com
 * Mob - 80(33)654-42-57
-* LinkedIn - 
-* GitHub - 
-* Discord - 
+* GitHub - Fly-Hamster
+* Discord - Lana Malich
 ---
 ---
 ## About me
@@ -20,12 +22,14 @@ Location: Brest, Belarus
 3. Java
 4. Python
 5. Bootstrap
+6. Arduino
 ---
 ---
 ## Code Example
 ---
 ---
 ## Experience
+09.2020 - 06.2023 - ITSchool 
 ---
 ---
 ## Education
@@ -34,3 +38,4 @@ Location: Brest, Belarus
 ---
 ## English
 A1+
+---
