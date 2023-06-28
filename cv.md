@@ -1,6 +1,4 @@
 
-<img src='photo_for_cv.jpg' width = 20%>
-
 # Sveatlana Malich
 
 Location: Brest, Belarus
