@@ -18,7 +18,7 @@ Location: Brest, Belarus
 
 ## About me
 
-I am 22 years old and have worked for 3 years teaching programming and robotics to children aged 5 to 17. Learn the moment you need to change direction and handle frjntEnd development
+I am 22 years old and have worked for 3 years teaching programming and robotics to children aged 5 to 17. I decided to change the direction of my studies and become a front-end developer.
 
 ---
 
