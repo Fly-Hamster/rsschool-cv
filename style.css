@@ -4,8 +4,10 @@ body{
     margin-left: 10%;
 }
 
-header{
+header, footer{
     background-color: darkslategrey;
+    margin: 0px;
+    padding: 0px;
 }
 
 #photo_for_cv {
@@ -15,7 +17,7 @@ header{
 
 nav{
     background-color: darkslategray;
-
+    margin: 0px;
 }
 nav ul{
     display: flex;    
@@ -43,6 +45,28 @@ h1 {
     font-size: 20px;
 }
 main {
-    width: 80%;
+    margin: 0px;
     justify-content: center;
+}
+#rs_logo{
+    width: 150px;
+    margin-top: 3%;
+}
+#gh_logo{
+    width: 75px;
+    margin-top: 3%;
+}
+
+footer{
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.main{
+    border: 2px darkslategray solid;
+    width: 100%;
+    margin: 0px;
 }
