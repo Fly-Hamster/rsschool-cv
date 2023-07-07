@@ -1,69 +1,30 @@
-html{
-    margin: 0%;
-    padding: 0%;
-    
+body{
+    background-color:seashell;
 }
-body {
-    padding: auto;
-    margin: auto;
-    width: 90%;
-    display: block;
-    background-color: rgb(130, 130, 130);
-    border: 2rem;
+
+header{
+    background-color: darkslategrey;
 }
-header, footer {
-    background-color: rgb(255, 251, 2);
-    margin: 0%;
-    border-radius: 10px;
-    width: 100%;
+
+#photo_for_cv {
+    width: 150px;
+    margin: 1%;
 }
-img {
-    width: 15%;
-    padding: auto;
-    margin: 2%;
-    
+
+nav{
+    background-color: darkslategray;
+
 }
-h1 {
-    text-align: center;
+nav ul li{
+    display: inline-block;
 }
-#header{
-    width: 80%;
+nav ul li a{
+    color: seashell;
+}
+#header_div {
     float: left;
-}
-#location{
+    width: 80%;
     text-align: center;
+    padding-top: 5%;
+    color: seashell;
 }
-nav {
-    float:left;
-    width: 20%;
-    margin-left: 2%;
-}
-main {
-    margin-left: 25%;
-    padding: 2%;
-    border-left: 2px black solid;
-}
-   @media screen and (max-width: 2024px) {
-    h1 { font-size: 75px; }
-   }
-   @media screen and (max-width: 1000px) {
-    h1 { font-size: 50px; }
-   }
-   @media screen and (max-width: 650px) {
-    h1 { font-size: 30px; }
-   }
-   #navigation{
-    list-style-type: none;
-   }
-   #navigation li{
-    border: 1px darkslategray dashed;
-    margin: 10;
-    font-size: 40px;
-    
-   }
-   #navigation li a{
-    color: black;
-   }
-   #navigation li:hover{
-    background-color: rgb(255, 251, 2);
-   }
