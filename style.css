@@ -1,5 +1,7 @@
 body{
     background-color:seashell;
+    width: 80%;
+    margin-left: 10%;
 }
 
 header{
@@ -15,16 +17,32 @@ nav{
     background-color: darkslategray;
 
 }
+nav ul{
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
 nav ul li{
-    display: inline-block;
+    list-style-type: none;
 }
 nav ul li a{
     color: seashell;
+    font-size: 30px;
 }
 #header_div {
     float: left;
     width: 80%;
     text-align: center;
-    padding-top: 5%;
     color: seashell;
+}
+h1 {
+    font-size: 75px;
+}
+#location_p {
+    font-size: 20px;
+}
+main {
+    width: 80%;
+    justify-content: center;
 }
