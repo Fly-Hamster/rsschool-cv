@@ -33,3 +33,23 @@ h1 {
 #location{
     text-align: center;
 }
+nav {
+    float:left;
+    width: 20%;
+}
+main {
+    margin-left: 25%;
+    padding: 2%;
+    border-left: 2px black solid;
+}
+   /* Для ширины 1024 пикселей и меньше */
+   @media screen and (max-width: 2024px) {
+    h1 { font-size: 75px; }
+   }
+   @media screen and (max-width: 1000px) {
+    h1 { font-size: 50px; }
+   }
+   /* Для ширины 600 пикселей и меньше */
+   @media screen and (max-width: 600px) {
+    h1 { font-size: 30px; }
+   }
