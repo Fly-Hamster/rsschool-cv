@@ -1,28 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color:seashell;
     width: 80%;
     margin-left: 10%;
-    padding: 0px;
 }
 
 header, footer{
     background-color: darkslategrey;
-    margin: 0px;
-    padding: 0px;
     border: 2px darkslategray solid;
     width: 100%;
 }
-
+header {
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 #photo_for_cv {
-    width: 150px;
+    width: 12vw;
     margin: 1%;
 }
 
 nav{
     background-color: darkslategray;
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
+    margin: 10px 0px;
+    width: 100%;    
+    border: 2px darkslategray solid;
 }
 nav ul{
     display: flex;    
@@ -35,33 +40,33 @@ nav ul li{
 }
 nav ul li a{
     color: seashell;
-    font-size: 30px;
+    font-size: 2vw;
 }
 nav ul li a:hover{
     color: rgb(220, 88, 0);
 }
 #header_div {
     float: left;
-    width: 80%;
+    width: 75%;
     text-align: center;
     color: rgb(220, 88, 0);
+    margin-top: 5%;
 }
 h1 {
-    font-size: 75px;
+    font-size: 5vw;
 }
 #location_p {
-    font-size: 20px;
+    font-size: 3vw;
 }
 main {
-    margin: 0px;
     justify-content: center;
 }
 #rs_logo{
-    width: 150px;
+    width: 12vw;
     margin-top: 3%;
 }
 #gh_logo{
-    width: 75px;
+    width: 6vw;
     margin-top: 3%;
 }
 
@@ -69,19 +74,18 @@ footer{
     display: flex;    
     flex-wrap: wrap;
     justify-content: space-around;
-    font-size: 30px;
+    font-size: 2vw;
     margin-top: 15px;
+    padding: 5% 0;
 }
 
 .main{
     border: 2px darkslategray solid;
     width: 100%;
-    margin: 0px;
-    padding: 0px;
 }
 
 #div_contacts ul li a img {
-    width: 100px;
+    width: 8vw;
 }
 #div_contacts ul li {
     list-style-type: none;
@@ -99,8 +103,8 @@ footer{
 }
 #div_skills ol li {
     list-style-type: none;
-    width: 100px;
-    height: 120px;
+    width: 9vw;
+    height: 10vw;
 }
 #div_skills ol {
     display: flex;    
@@ -130,10 +134,11 @@ h2 {
     background-color: darkslategrey;
     color: seashell;
     margin-top: 0px;
+    font-size: 3vw;
 }
 
 #div_aboutme p {
-    font-size: 20px;
+    font-size: 2vw;
 }
 .blue {
     color:blue;
@@ -142,7 +147,7 @@ h2 {
     color: violet;
 }
 code {
-    font-size: 20px;
+    font-size: 2vw;
 }
 #code {
     display: flex;    
