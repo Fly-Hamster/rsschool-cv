@@ -70,3 +70,19 @@ footer{
     width: 100%;
     margin: 0px;
 }
+
+#div_contacts ul li a img {
+    width: 100px;
+}
+#div_contacts ul li {
+    list-style-type: none;
+}
+#div_contacts ul {
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+h2 {
+    text-align: center;
+}
