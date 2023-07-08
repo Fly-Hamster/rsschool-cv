@@ -139,6 +139,7 @@ h2 {
 
 #div_aboutme p {
     font-size: 2vw;
+    margin:7px;
 }
 .blue {
     color:blue;
@@ -161,6 +162,8 @@ code {
     justify-content: space-around;
     padding: 10px;
     font-size: 2vw;
+    
+    margin:7px;
 }
 #div_languages ul {
     display: flex;    
