@@ -1,11 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CV Sveatlana Malich</title>
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body>
+        <header>
+            <div id="header_div">
+                <h1>Sveatlana Malich</h1>
+                <p id = "location_p">Location: Brest, Belarus</p>
+            </div>
+            <img src = "images/photo_for_cv.jpg" alt = "Photo" id = "photo_for_cv">
+            
+        </header>
+        <nav>
+            <ul id = "navigation">
+                <li><a href="#aboutMe">About Me</a></li>
+                <li><a href = "#skills">Skills</a></li>
+                <li><a href = "#projects">Projects</a></li>
+                <li><a href = "#codeExample">Code Example</a></li>
+                <li><a href = "#experience">Experience</a></li>
+                <li><a href = "#education">Education</a></li>
+                <li><a href = "#languages">Languages</a></li>
+                <li><a href = "#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+        <main>
+            
+            <div class = "main" id = "div_aboutme">
+                <h2 id = "aboutMe">About Me</h2>
+                <p>I am 22 years old and have worked 
+                    for 3 years teaching programming and 
+                    robotics to children aged 5 to 17. 
+                    I decided to change the direction of
+                    my studies and become a front-end 
+                    developer.</p>
+            </div>
+            <div class = "main" id = "div_skills">
+                <h2 id = "skills">Skills</h2>
+                <ol>
+                    <li><img src = "images/skills/html5Logo.png" alt = "HTML5"></li>
+                    <li><img src = "images/skills/CSS3Logo.png" alt = "CSS3"></li>
+                    <li><img src = "images/skills/jsLogo.png" alt = "JavaSctipt"></li>
+                    <li><img src = "images/skills/javaLogo.png" alt = "Java"></li>
+                    <li><img src = "images/skills/pythonLogo.png" alt = "Python"></li>
+                    <li><img src = "images/skills/CppLogo.png" alt = "C++"></li>
+                    <li><img src = "images/skills/arduinoLogo.png" alt = "Arduino"></li>
+                </ol>
+            </div>
+            <div class = "main" id = "div_projects">
+                <h2 id = "projects">Projects</h2>
+                <ol>
+                    <li><a href = "https://github.com/Fly-Hamster/rsschool-cv">CV</a></li>
+                    <li><a href = "https://github.com/Fly-Hamster/SearchAnomaly">Search for anomalies in time series</a></li>
+                </ol>
+            </div>
+            <div class = "main">
+                <h2 id = "codeExample">Code Example</h2>
+                
+                <div id = "code">
+                    <code>
+                        <span class = "blue">public static void</span> main(<span class = "violet">String[]</span> args) {<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;System.out.println(max(5, 2));<br>
+                        }<br>
+                        <span class = "blue">public static double</span> max (<span class = "violet">double</span> a, 
+                        <span class = "violet">double</span> b){<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span class = "blue">double</span> res = a > b ? a :  b;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span class = "blue">return</span> res;<br>
+                        }<br>
+                    </code>
+                </div>
+            </div>
+            <div class = "main" id = "div_experience">
+                <h2 id = "experience">Experience</h2>
+                <div class = "wrap">
+                    <p class = "date">09.2020 - 06.2023</p>
+                    <p class = "item">ITSchool (teachen Java, 
+                        Web (HTML, CSS, JS),
+                        Arduino, Lego Education WeDo,
+                        Lego Education WeDo 2.0)</p>
+                </div>
+            </div>
+            <div class = "main" id = "div_education">   
+                <h2 id = "education">Education</h2>
+                <div class = "wrap">
+                    <p class = "date">2017 - 2021</p>
+                    <p class = "item">Brest State Technical University
+                        (speciality - artificial intelligence, 
+                        qualification - system engineer)</p>
+                </div>
+            </div>
+            <div class = "main" id = "div_languages">    
+                <h2 id = "languages">Languages</h2>
+                <ul>
+                    <li>English - A1 (A2 in process)</li>
+                    <li>Russian - native speaker</li>
+                    <li>Belarussian - native speaker</li>
+                </ul>
+            </div>
+            <div class = "main" id = div_contacts>
+                <h2 id = "contacts">Contacts</h2>
+                <ul>
+                    <li><a href = "mailto:malich.s.g@gmail.com"><img src = "images/contacts/GmailLogo.png" alt = "Gmail"></a></li>
+                    <li><a href = "tel:+375336544257"><img src = "images/contacts/MobLogo.png" alt = "Mobile"></a></li>
+                    <li><a href = "https://github.com/Fly-Hamster"><img src = "images/contacts/GitHubLogo.png" alt = "GitHub"></a></li>
+                    <li><a href = "https://www.linkedin.com/in/%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D0%B0%D0%BD%D0%B0-%D0%BC%D0%B0%D0%BB%D0%B8%D1%87-a29300229">
+                        <img src = "images/contacts/LinkedInLogo.png" alt = "LinkedIn"></a></li>
+                    <li><a href = "https://t.me/FlyHamster"><img src = "images/contacts/TelegramLogo.png" alt = "Telegram"></a></li>
+                </ul>
+            </div>
+        </main>
 
-</body>
+        <footer>
+            <a href = "https://github.com/Fly-Hamster">
+                <img src="images/GitHubLogo.png" alt = "GitHub" id="gh_logo"></a>
+                        
+            <a href = "https://rs.school/js/">
+                <img src="https://rs.school/images/rs_school_js.svg" 
+                alt = "RS School" id = "rs_logo">
+            </a>
+
+            <p id = "footer_p">Created at 2023</p>
+        </footer>
+    </body>
 </html>
