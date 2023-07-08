@@ -109,6 +109,22 @@ footer{
     padding: 10px;
 }
 
+#div_projects ol li {
+    list-style-type: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;;
+}
+#div_projects ol li a:visited{
+    color: rgb(220, 88, 0);
+}
+#div_projects ol {
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
 h2 {
     text-align: center;
     background-color: darkslategrey;
@@ -118,4 +134,19 @@ h2 {
 
 #div_aboutme p {
     font-size: 20px;
+}
+.blue {
+    color:blue;
+}
+.violet {
+    color: violet;
+}
+code {
+    font-size: 20px;
+}
+#code {
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
 }
