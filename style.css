@@ -83,6 +83,23 @@ footer{
     justify-content: space-around;
     padding: 10px;
 }
+
+#div_skills ol li img {
+    width: 100%;
+    height: 100%;
+}
+#div_skills ol li {
+    list-style-type: none;
+    width: 100px;
+    height: 120px;
+}
+#div_skills ol {
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
 h2 {
     text-align: center;
 }
