@@ -115,7 +115,7 @@ footer{
 
 #div_projects ol li {
     list-style-type: none;
-    font-size: 20px;
+    font-size: 3vw;
     color: black;
     font-weight: bold;;
 }
@@ -154,4 +154,26 @@ code {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 10px;
+}
+ .wrap {
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 2vw;
+}
+#div_languages ul {
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 2vw;
+}
+.date {
+    width: 20%;;
+}
+.item {
+    width: 60%;
+    border-left: 2px darkslategray solid;
+    padding-left: 5px;
 }
